@@ -1,0 +1,10 @@
+expense=[35,6,28]
+a=len(expense)
+b=sum(expense)
+print(a)
+print(b)
+print(b/a)
+expense.append(50)
+print(len(expense))
+print(sum(expense))
+print(expense[1])
