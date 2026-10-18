@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="100 天编程自学计划" width="100%">
+</p>
+
 # 💻 100 天编程自学计划 · coding-100-days
 
 > 从零基础到能独立写脚本、做数据分析与小项目的 100 天成长记录。

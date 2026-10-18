@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh" data-canvas-width="1280" data-canvas-height="340">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1280px; height:340px;
+    font-family:"Microsoft YaHei","SimHei",sans-serif;
+    background:linear-gradient(120deg,#0f172a 0%,#1e293b 45%,#0f2a43 100%);
+    color:#e2e8f0; position:relative; overflow:hidden;
+  }
+  .grid {
+    position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(56,189,248,.06) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(56,189,248,.06) 1px,transparent 1px);
+    background-size:40px 40px;
+  }
+  .glow1{position:absolute;width:420px;height:420px;border-radius:50%;
+    background:radial-gradient(circle,rgba(56,189,248,.28),transparent 70%);
+    top:-160px;right:-80px;}
+  .glow2{position:absolute;width:360px;height:360px;border-radius:50%;
+    background:radial-gradient(circle,rgba(45,212,191,.22),transparent 70%);
+    bottom:-180px;left:-60px;}
+  .wrap{position:relative;z-index:2;padding:52px 64px;height:100%;
+    display:flex;flex-direction:column;justify-content:center;}
+  .kicker{display:inline-flex;align-items:center;gap:10px;font-size:19px;
+    letter-spacing:3px;color:#7dd3fc;font-weight:700;margin-bottom:14px;}
+  .dot{width:10px;height:10px;border-radius:50%;background:#34d399;
+    box-shadow:0 0 12px #34d399;}
+  h1{font-size:62px;font-weight:900;line-height:1.08;letter-spacing:1px;
+    background:linear-gradient(90deg,#ffffff,#7dd3fc 60%,#2dd4bf);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{margin-top:16px;font-size:23px;color:#cbd5e1;font-weight:400;letter-spacing:1px;}
+  .tags{margin-top:26px;display:flex;gap:14px;align-items:center;}
+  .tag{font-size:18px;font-weight:700;padding:8px 18px;border-radius:999px;
+    border:1px solid rgba(125,211,252,.45);color:#bae6fd;background:rgba(56,189,248,.08);}
+  .tag.green{border-color:rgba(52,211,153,.45);color:#a7f3d0;background:rgba(52,211,153,.08);}
+  .bar{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
+  .bar .num{font-size:40px;font-weight:900;color:#fbbf24;}
+  .bar .lab{font-size:16px;color:#94a3b8;letter-spacing:2px;}
+  .track{width:230px;height:10px;border-radius:6px;background:rgba(148,163,184,.25);overflow:hidden;margin-top:2px;}
+  .fill{height:100%;width:4%;border-radius:6px;
+    background:linear-gradient(90deg,#34d399,#2dd4bf);}
+</style>
+</head>
+<body>
+  <div class="grid"></div><div class="glow1"></div><div class="glow2"></div>
+  <div class="wrap">
+    <div class="kicker"><span class="dot"></span>100 DAYS OF CODE · 零基础到项目实战</div>
+    <h1>100 天编程自学计划</h1>
+    <div class="sub">每天有代码 · 每天有提交 · 每天有可运行的成果　|　Python 起步，目标 2028 考研 AI / 软工</div>
+    <div class="tags">
+      <span class="tag">Python 3.13</span>
+      <span class="tag">Git &amp; GitHub</span>
+      <span class="tag green">数据分析</span>
+      <span class="tag green">真实项目拆解</span>
+      <div class="bar">
+        <div class="num">Day 04<span style="font-size:22px;color:#94a3b8;"> / 100</span></div>
+        <div class="track"><div class="fill"></div></div>
+        <div class="lab">连续打卡 4 天</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
