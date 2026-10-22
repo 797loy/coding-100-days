@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "支持",
+    "category": "餐饮",
+    "amount": 35.0,
+    "month": "2026-10",
+    "note": "午饭"
+  },
+  {
+    "kind": "支出",
+    "category": "交通",
+    "amount": 6.0,
+    "month": "2026-10",
+    "note": "地铁"
+  },
+  {
+    "kind": "收入",
+    "category": "工资",
+    "amount": 8000.0,
+    "month": "2026-10",
+    "note": "十月工资"
+  }
+]
