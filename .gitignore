@@ -1,0 +1,8 @@
+# 程序运行时自动生成的数据文件，不提交
+accounts.txt
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+venv/
